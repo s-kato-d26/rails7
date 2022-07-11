@@ -1,14 +1,14 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Blogs</h1>
+<h1><%= t("blogs") %></h1>
 
 <div id="blogs">
   <% @blogs.each do |blog| %>
     <%= render blog %>
     <p>
-      <%= link_to "Show this blog", blog %>
+      <%= link_to t("show_this_blogs"), blog %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New blog", new_blog_path %>
+<%= link_to t("new_blogs"), new_blog_path %>

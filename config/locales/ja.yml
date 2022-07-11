@@ -29,9 +29,9 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  blogs: "Blogs"
-  title: "Title"
-  content: "Content"
-  show_this_blogs: "Show this blogs"
-  new_blogs: "New blogs"
+ja:
+  blogs: "ブログ"
+  title: "題名"
+  content: "本文"
+  show_this_blogs: "続きを読む"
+  new_blogs: "新規作成"
